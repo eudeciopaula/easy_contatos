@@ -140,7 +140,7 @@ class _HomePageState extends State<HomePage> {
                       Padding(
                         padding: EdgeInsets.all(10),
                         child: FlatButton(
-                          child: Text("Excluir", style: TextStyle(color: Colors.red, fontSize: 20.0),),
+                          child: Text("Excluirr", style: TextStyle(color: Colors.red, fontSize: 20.0),),
                           onPressed: (){
                             setState(() {
                               helper.deletarContato(listaContatos[index].id);
